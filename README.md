@@ -2,30 +2,6 @@
 
 A modern web application that analyzes Google Play Store app reviews using multiple AI models for sentiment analysis. Built with FastAPI, Next.js, and Tailwind CSS.
 
-## Features
-
-- **Multi-Model Sentiment Analysis**: Uses three different AI models for comprehensive sentiment analysis:
-  - DistilBERT: Binary sentiment analysis (positive/negative)
-  - RoBERTa: Three-way sentiment analysis (positive/neutral/negative)
-  - Multilingual BERT: 5-star rating based sentiment analysis
-
-- **Smart Input Handling**: Accepts both:
-  - App package names (e.g., com.whatsapp)
-  - Google Play Store URLs
-
-- **Detailed Sentiment Visualization**:
-  - Circular gauge visualization for sentiment scores
-  - Color-coded sentiment categories
-  - Emoji indicators
-  - Detailed sentiment descriptions
-
-- **Modern UI/UX**:
-  - Responsive design
-  - Beautiful gradient backgrounds
-  - Smooth animations and transitions
-  - Glassmorphism effects
-  - Interactive hover states
-
 ## Tech Stack
 
 ### Backend
@@ -140,51 +116,3 @@ Analyzes app reviews and returns sentiment analysis results.
 }
 ```
 
-## Sentiment Categories
-
-The application categorizes sentiment into five levels:
-
-1. **Very Positive** (≥ 0.8)
-   - Color: Green
-   - Emoji: 😊
-   - Description: Overwhelmingly positive sentiment
-
-2. **Mildly Positive** (≥ 0.6)
-   - Color: Light Green
-   - Emoji: 🙂
-   - Description: Generally positive sentiment
-
-3. **Neutral** (≥ 0.4)
-   - Color: Yellow
-   - Emoji: 😐
-   - Description: Mixed or neutral sentiment
-
-4. **Mildly Negative** (≥ 0.2)
-   - Color: Light Red
-   - Emoji: 🙁
-   - Description: Generally negative sentiment
-
-5. **Very Negative** (< 0.2)
-   - Color: Red
-   - Emoji: 😞
-   - Description: Overwhelmingly negative sentiment
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Transformers](https://huggingface.co/transformers/)
-- [Google Play Scraper](https://github.com/JoMingyu/google-play-scraper) 
