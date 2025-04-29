@@ -2,6 +2,11 @@
 
 A modern web application that analyzes Google Play Store app reviews using multiple AI models for sentiment analysis. Built with FastAPI, Next.js, and Tailwind CSS.
 
+**Multi-Model Sentiment Analysis**: Uses three different AI models for comprehensive sentiment analysis:
+- DistilBERT: Binary sentiment analysis (positive/negative)
+- RoBERTa: Three-way sentiment analysis (positive/neutral/negative)
+- Multilingual BERT: 5-star rating based sentiment analysis
+
 ## Tech Stack
 
 ### Backend
